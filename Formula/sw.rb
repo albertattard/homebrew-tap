@@ -1,7 +1,6 @@
 class Sw < Formula
   desc "Executable documentation runbook CLI"
   homepage "https://github.com/albertattard/sw"
-  version "0.1.0"
   license "MIT"
 
   on_macos do
@@ -23,6 +22,6 @@ class Sw < Formula
   end
 
   test do
-    system "#{bin}/sw", "version"
+    system bin/"sw", "version"
   end
 end
