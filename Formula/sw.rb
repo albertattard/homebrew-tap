@@ -5,15 +5,15 @@ class Sw < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/albertattard/sw/releases/download/v0.1.5/sw-v0.1.5-aarch64-apple-darwin.tar.gz"
-      sha256 "b158aa3165ef55d698b1eac67adb63f158917f0df570f795c0aee900d273e687"
+      url "https://github.com/albertattard/sw/releases/download/v0.1.6/sw-v0.1.6-aarch64-apple-darwin.tar.gz"
+      sha256 "f02bfc8fef808894d95925506de1b560d17d5e7557d2a6055a259ac9996e9d99"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/albertattard/sw/releases/download/v0.1.5/sw-v0.1.5-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "fac2f5130a344382cd8aee7ee81a3fdc45c1b49a62459a5c93e1cf441972bd59"
+      url "https://github.com/albertattard/sw/releases/download/v0.1.6/sw-v0.1.6-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "f032d8d9580e581605de9605df1d55ed0e7600a0b94b3f0cb95a38eaa3a3bf9f"
     end
   end
 
